@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Malla Medicina UPC</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header>
+    <h1>Malla Curricular de Medicina - UPC</h1>
+  </header>
+  <main>
+    <section class="controls">
+      <label for="cicloSelect">Filtrar por ciclo:</label>
+      <select id="cicloSelect">
+        <option value="todos">Todos</option>
+        <option value="1">1° Ciclo</option>
+        <option value="2">2° Ciclo</option>
+        <option value="3">3° Ciclo</option>
+        <option value="4">4° Ciclo</option>
+        <option value="5">5° Ciclo</option>
+        <!-- Agrega más ciclos si es necesario -->
+      </select>
+    </section>
+    <section id="mallaContainer" class="grid"></section>
+  </main>
+  <footer>
+    <p>Hecho por Ariana-jcsf</p>
+  </footer>
+  <script src="script.js"></script>
+</body>
+</html>
