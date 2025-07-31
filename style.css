@@ -1,44 +1,55 @@
 body {
-  font-family: Arial, sans-serif;
+  font-family: 'Segoe UI', sans-serif;
+  background: #f4f6f8;
   margin: 0;
   padding: 0;
-  background: #f4f4f4;
 }
 
 header {
-  background-color: #800000;
+  background-color: #0f5e9c;
   color: white;
-  text-align: center;
-  padding: 1rem;
-}
-
-.controls {
-  padding: 1rem;
+  padding: 20px;
   text-align: center;
 }
 
-.grid {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-  gap: 1rem;
-  padding: 1rem;
+main {
+  padding: 20px;
 }
 
-.card {
+.malla {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+}
+
+.ciclo {
   background: white;
-  padding: 1rem;
-  border-radius: 10px;
-  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
-  transition: transform 0.2s ease;
+  border-radius: 8px;
+  padding: 20px;
+  width: 300px;
+  box-shadow: 0 4px 6px rgba(0,0,0,0.1);
 }
 
-.card:hover {
-  transform: scale(1.03);
+.ciclo h3 {
+  margin-top: 0;
+  color: #0f5e9c;
+}
+
+.cursos label {
+  display: block;
+  margin: 10px 0;
+}
+
+input[type="checkbox"] {
+  margin-right: 8px;
+  transform: scale(1.2);
 }
 
 footer {
+  background-color: #0f5e9c;
+  color: white;
   text-align: center;
-  padding: 1rem;
-  background-color: #ddd;
-  margin-top: 2rem;
+  padding: 10px;
+  margin-top: 40px;
 }
